@@ -1,32 +1,28 @@
-# 🎮 Triple Match – Tic Tac Toe Game
+# 🧩 Triple Match – Picture Puzzle Game
 
-Triple Match is an interactive Tic-Tac-Toe puzzle game built using HTML, CSS, and JavaScript.
-It allows two players to compete in the classic 3x3 grid game, with real-time move validation, win detection, and an intuitive interface. The project provides a smooth and engaging user experience with a modern design and reset functionality.
-
+Triple Match is an interactive picture puzzle game built using HTML, CSS, and JavaScript.
+Players solve puzzles by arranging shuffled images of great leaders, historical marvels, famous places, and popular characters. Once the puzzle is solved, the game reveals knowledge and fun facts about the picture – making it both educational and entertaining.
 
 **✨ Features**
 
-👥 Two-Player Mode – Play with friends locally
+🖼️ Picture Puzzle Gameplay – Arrange shuffled pieces to form the original image
 
-✅ Real-Time Move Validation – Ensures valid moves only
+🎓 Knowledge Unlock – Once solved, reveals interesting information about the person, place, or marvel
 
-🏆 Win Detection – Highlights the winner when 3 in a row is achieved
+🎨 Smooth Animations – Enhances the puzzle-solving experience with transitions
 
-🤝 Draw Handling – Declares draw when no moves are left
+🔄 Restart / New Puzzle Options – Quickly reshuffle and try again
 
-🔄 Restart / New Game Options – Quickly reset the game and play again
-
-🎨 Simple & Clean UI – Responsive design with CSS styling
+🎮 Engaging Experience – Combines fun puzzle-solving with learning
 
 
 **🛠️ Tech Stack**
 
-HTML5 – Structure of the game
+HTML5 – Structure of the puzzle and layout
 
-CSS3 – Styling and responsive layout
+CSS3 – Styling, grid design, and animations
 
-JavaScript (Vanilla JS) – Game logic, win conditions, and interactions
-
+JavaScript (Vanilla JS) – Puzzle logic, interactions, and win detection
 
 **📂 Project Structure**
 
@@ -34,16 +30,17 @@ Triple-Match/
 
 │── index.html        # Main HTML file (UI layout)
 
-│── styles.css        # Styling for the game board and buttons
+│── styles.css        # Styling for the puzzle grid and UI
 
-│── script.js         # Game logic (validation, win check, reset)
+│── script.js         # Game logic (puzzle shuffle, matching, result)
+
+│── images/           # Folder containing puzzle images (leaders, marvels, places, etc.)
 
 │── README.md         # Project documentation
 
+
 **⚡ Getting Started**
-
 1️⃣ Clone the Repository
-
 git clone https://github.com/Kusuma431/Triple-Match.git
 cd triple-match
 
@@ -51,25 +48,39 @@ cd triple-match
 
 Simply open the index.html file in your favorite browser and start playing.
 
+
 **🎮 How to Play**
 
-The game is played on a 3x3 grid.
+Select a puzzle (image of a leader, marvel, place, or animation).
 
-Players take turns putting their marks (X or O) in empty cells.
+The image is divided into grid-based shuffled pieces.
 
-The first player to align three of their marks horizontally, vertically, or diagonally wins 🎉.
+Rearrange the pieces to form the correct picture.
 
-If all 9 cells are filled and no player has won, the game ends in a draw.
+Once solved ✅, the game will display facts and knowledge about the picture.
 
-Use the Restart Game or New Game button to start again.
+Use Restart to shuffle and try again with a new puzzle.
+
+
+**📸 Example Puzzle Themes**
+
+🌍 World Wonders (e.g., Taj Mahal, Eiffel Tower)
+
+👤 Great Leaders (e.g., Mahatma Gandhi, Abraham Lincoln)
+
+🎬 Famous Characters (e.g., Marvel heroes)
+
+🖼️ Cultural Icons & Animations
 
 
 **🚀 Future Enhancements**
 
-🎨 Highlight winning combinations with colors or animations
+🎵 Add background music & sound effects for puzzle moves
 
-🤖 Add a single-player mode with AI opponent
+🧠 Include difficulty levels (3x3, 4x4, 5x5 grids)
 
-📱 Make the design fully responsive for mobile devices
+📱 Make fully responsive for mobile devices
 
-🔊 Add sound effects on moves and wins
+🏆 Add leaderboard for high scores / fastest completion
+
+🔀 Add random daily puzzles for more variety
